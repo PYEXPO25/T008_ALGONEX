@@ -1,32 +1,33 @@
-PyExpo Logo
-Problem Statement
+PyExpo Logo : 
+![pyexpo-logo](https://github.com/user-attachments/assets/0bdfb7f4-1ac0-43b2-ab82-d321db082339)
+
+
+
+Problem Statement - Student Innovation - Nurse Patient Management System
 Problem Statement ID – PYS116
 
-Formulate your problem statement clearly and concisely.
+Problem Statement - Balancing patient care, documentation, and time management remains a significant challenge for nurses. Healthcare professionals often repeat the same procedures when treating common illnesses. (Usage of AI Bot). Doctors have limited time for medication updates. Lack of centralized, real-time data access for medical staff.
 
 Overview
-Provide an overview of the project, its purpose, and what it aims to achieve along with proposed solution
+The cloud-based, AI-fueled Nurse-Patient Management System automates healthcare processes by consolidating patient information, delivering real-time notifications, and improving communication between healthcare professionals. Through a intelligent chatbot and AI-fueled medication suggestion engine, it eliminates redundant work, enhances accuracy of care, and enables physicians to make informed, timely decisions, freeing up healthcare professionals to attend more to patients while being abreast of the latest information.
 
 Team Members
 Team ID – T008
-
-List your team members along with their roles.
-
 JOSHUA MELVIN K - Team Leader
 ASVIKA AVS - FRONT END DEV
 MANIKANDAN - BACKEND DEV
 JEFFREY - BACKEND DEV / DATABASE
 HARRISH - FRONT END DEV
 MEGAVARSHINI - FRONT END DEV
-Team Photo
 
-Technical Stack
-List the technologies and tools used in the project. For example:
+Team Photo :
+![WhatsApp Image 2025-02-19 at 4 42 23 PM](https://github.com/user-attachments/assets/ae61b671-6da0-484a-b490-7d9c273c5628)
 
+Technical Stack : 
 Frontend: HTML, CSS, JavaScript, ReactJS
-Backend: Flask, Django
-Database: MongoDB, MySQL
-Other Tools: Docker, Git, TensorFlow
+Backend: Django - PYTHON
+Database: MySQL
+
 Getting Started
 Follow these steps to clone and run the application locally.
 
@@ -50,11 +51,11 @@ Install dependencies: bash pip install -r requirements.txt
 Navigate to source bash cd source
 
 Start the Application
-Run the Flask application: bash flask run
+Run the Django application: python manage.py runserver
 
 Open your browser and navigate to:
 
-http://127.0.0.1:5000/
+http://127.0.0.1:8000/
 
 UI Overview
 Images to demonstrate the user interface:
@@ -69,7 +70,7 @@ Analytics View: Analytics Mockup
 
 Resources
 📄 PowerPoint Presentation
-Click here to view the PPT
+[Revised Algonex Proj.pptx](https://github.com/user-attachments/files/18880734/Revised.Algonex.Proj.pptx)
 
 🎥 Project Video
 Click here to view the project demo video
