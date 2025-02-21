@@ -34,7 +34,7 @@ Follow these steps to clone and run the application locally.
 Prerequisites
 Install Python.
 Install Git.
-Clone this repository: bash git clone https://github.com/username/repository-name.git
+Clone this repository: bash git clone https://github.com/PYEXPO25/T008_ALGONEX.git
 Installation
 Navigate to the project directory: bash cd repository-name
 
