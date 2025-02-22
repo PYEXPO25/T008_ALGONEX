@@ -8,8 +8,8 @@ urlpatterns = [
     path('login/nurse/', views.nurse_login, name='nurse_login'),
     path('login/patient/', views.patient_login, name='patient_login'),
     path('',views.homepage,name='homepage'),
-    path('login/patient/home',views.patient_home,name='patient_home'),
-    path('login/nurse/home',views.nurse_home,name='nurse_home'),
+    path('login/patient/patient_dashboard',views.patient_dashboard,name='patient_dashboard'),
+    path('login/nurse/nurse_dashboard',views.nurse_dashboard,name='nurse_dashboard'),
 
 
 ]

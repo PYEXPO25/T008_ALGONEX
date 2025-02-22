@@ -46,8 +46,8 @@ def create_users(request):
 
     return render(request, "success.html")
 
-def nurse_home(request):
+def nurse_dashboard(request):
     return render(request, 'nurse_home.html')
 
-def patient_home(request):
+def patient_dashboard(request):
     return render(request, 'patient_home.html')
