@@ -1,0 +1,126 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Portal - Home</title>
+    
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: linear-gradient(90deg, #007BFF, #00c6ff);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+        .auth-buttons {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+        .auth-buttons button {
+            margin-left: 10px;
+            padding: 10px 15px;
+            border: none;
+            background: white;
+            color: #007BFF;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 20px;
+            transition: background 0.3s, color 0.3s;
+        }
+        .auth-buttons button:hover {
+            background: #0056b3;
+            color: white;
+        }
+        nav {
+            background: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>    
+        <h1>Welcome to the Healthcare Portal</h1>
+        <img src="https://cdn.pixabay.com/photo/2017/08/18/12/23/building-2654823_1280.jpg" alt="Description of Image" width="50%">
+        <p>Empowering patients, doctors, and nurses through technology and care.</p>
+        <div class="auth-buttons">
+            <a href="{% url 'nurse_login' %}">
+                <button type="button">Nurse Login</button>
+              </a>
+            <a href="{% url 'patient_login' %}">
+                <button type="button">Patient Login</button>
+                </a>
+        {% comment %} </div>
+        <div class="auth-buttons">
+            <a href="{% url 'patient_login' %}">
+                <button type="button">Patient Login</button>
+              </a>
+        </div> {% endcomment %}
+    </header>
+    
+
+    
+   
+
+    <main>
+        <section>
+            <h2>Our Services</h2>
+            <p>We provide seamless healthcare management, AI-powered disease detection, automated prescriptions, and easy appointment scheduling.</p>
+        </section>
+
+        <section>
+            <h2>AI-Powered Assistance</h2>
+            <p>Our AI system helps detect diseases, generate prescriptions for common illnesses, and schedule doctor appointments for complex cases.</p>
+        </section>
+    </main>
+
+    
+    <script>
+        function signIn() {
+            alert("Sign In button clicked");
+        }
+        function signOut() {
+            alert("Sign Out button clicked");
+        }
+    </script>
+
+</body>
+</html>
